@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: kafka-admin-poc-consumer
+
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:29092
+      group-id: test-group
